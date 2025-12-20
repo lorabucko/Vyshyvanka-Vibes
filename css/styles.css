@@ -11,6 +11,7 @@ body {
     font-family: "Manrope", sans-serif;
     color: var(--white);
     background-color: var(--black);
+    margin: 0;
 }
 * { box-sizing: border-box; }
 
@@ -38,19 +39,24 @@ img {
 }
 button {
     border: none;
+    font-family: inherit;
+    color: inherit;
+    background-color: inherit;
+    cursor: pointer;
 }
 /* ----------------COMMON STYLES---------------- */
 .container {
     max-width: 1280px;
     padding: 0 15px;
     margin: 0 auto;
+    padding: 0 50px
 }
 /* -------------HEADER------------------- */
 .header-nav a {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     text-transform: uppercase;
     color: var(--white);
     margin-left: 60px;
@@ -64,9 +70,24 @@ button {
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.28571;
+    line-height: 1.28;
     color: var(--white);
     padding: 14px 28px;
     border: 1px solid #fcf9f91a;
     border-radius: 15px;
+}
+.social-icons {
+    display: flex;
+    gap: 12px;
+    border: 1px solid #fcf9f91a;
+    border-radius: 15px;
+    padding: 8px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 12px;
+    background: #fcf9f91a;
 }
