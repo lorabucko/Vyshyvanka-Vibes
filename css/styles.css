@@ -1,0 +1,72 @@
+:root {
+    --black: #1c2225;
+    --yellow: #ecd979;
+    --white: #fcf9f9;
+}
+:root {
+    --font-family: "Manrope", sans-serif;
+    --second-family: "DM Sans", sans-serif;
+}
+body {
+    font-family: "Manrope", sans-serif;
+    color: var(--white);
+    background-color: var(--black);
+}
+* { box-sizing: border-box; }
+
+/* --------------RESET DEFAULTS--------------- */
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+button {
+    border: none;
+}
+/* ----------------COMMON STYLES---------------- */
+.container {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+/* -------------HEADER------------------- */
+.header-nav a {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-left: 60px;
+    padding: 10.5px 0;
+    }
+
+.header-nav a:hover, .header-nav a:focus {
+    color: var(--yellow);
+}
+.phone {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: var(--white);
+    padding: 14px 28px;
+    border: 1px solid #fcf9f91a;
+    border-radius: 15px;
+}
