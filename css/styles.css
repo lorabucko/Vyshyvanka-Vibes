@@ -2,6 +2,7 @@
     --black: #1c2225;
     --yellow: #ecd979;
     --white: #fcf9f9;
+    --white-opacity-40:#fcf9f91a;
 }
 :root {
     --font-family: "Manrope", sans-serif;
@@ -50,6 +51,23 @@ button {
     padding: 0 15px;
     margin: 0 auto;
 }
+button {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    border: 1px solid #fcf9f91a;
+    border-radius: 15px;
+    padding-block: 14px;
+    padding-inline: 39px;
+}
+
 /* -------------HEADER------------------- */
 .page-header {
     padding: 20px 0;
@@ -79,7 +97,6 @@ header .container {
     flex-direction: row;
     gap: 25px;
 }
-
 .phone {
     font-weight: 400;
     font-size: 14px;
@@ -109,4 +126,86 @@ header .container {
 }
 .contacts-list li:first-child {
     margin-right: 20px;
+}
+/* --------------Main content---------------- */
+section {
+    padding-bottom: 150px;
+}
+/* -----------Hero Section--------- */
+.hero-section .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hero-image {
+    margin-top: 100px;
+    margin-right: 40px;
+    border-radius: 4px;
+}
+.hero-content {
+    max-width: 518px;
+    margin-right: 115px;
+}
+.hero-title {
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 1.19;
+    letter-spacing: -0.03em;
+    color: var(--white);
+}
+.hero-title span {
+    color: var(--yellow);
+}
+.hero-button {
+    margin-left: 181px;
+    margin-top: 40px;
+}
+.hero-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #fcf9f966;
+    max-width: 115px;
+}
+
+
+/* -----------Testimonials--------- */
+.testimonials {
+    padding: 40px 0;
+}
+/*-----------------Footer-------------------*/
+.page-footer {
+    padding: 40px 0;
+    border-top: 1px solid #fcf9f91a;
+}
+.footer a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.footer a:hover, .footer a:focus {
+    color: var(--yellow);
+}
+.footer{
+    margin-bottom: 117px;
+    margin-right: 416px;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    color: var(--white);
+    letter-spacing: -0.03em;
+    max-width: 754px;
+}
+.footer-text span {
+    color: var(--yellow);
 }
