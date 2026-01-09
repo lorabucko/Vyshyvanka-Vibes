@@ -88,7 +88,7 @@ header .container {
     color: var(--white);    
     padding: 10.5px 0;
     }
-
+.header-nav li {flex-shrink: 0;}
 .header-nav a:hover, .header-nav a:focus {
     color: var(--yellow);
 }
@@ -123,6 +123,9 @@ header .container {
     flex-direction: row;
     gap: 12px;
     margin-left: 229px;
+}
+.contacts-list li {
+    flex-shrink: 0;
 }
 .contacts-list li:first-child {
     margin-right: 20px;
