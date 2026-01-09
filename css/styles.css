@@ -82,6 +82,9 @@ header .container {
     height: 39px;
     margin-right: 60px;
 }
+.logo {
+    flex-shrink: 0;
+}
 .header-nav a {
     line-height: 1.28;
     text-transform: uppercase;
@@ -192,6 +195,9 @@ section {
 .page-footer {
     padding: 40px 0;
     border-top: 1px solid #fcf9f91a;
+}
+.page-footer li {
+    flex-shrink: 0;
 }
 .footer a {
     font-weight: 400;
