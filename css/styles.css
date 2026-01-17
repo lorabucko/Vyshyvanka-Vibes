@@ -123,7 +123,7 @@ header .container {
 .contacts-list {
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: row;url(https://www.edu.goit.global/uk/learn/43855105/47461975/47461996/training)
     gap: 12px;
     margin-left: 229px;
 }
@@ -205,11 +205,18 @@ section {
     align-items: center;
     gap: 40px;
 }
-
-/* -----------Testimonials--------- */
-.testimonials {
-    padding: 40px 0;
+/* -----------Order Section--------- */
+.customer-order .container {
+    display: flex;    
+    align-items: center;
+    gap: 50px;
 }
+.order-form-img {
+    border-radius: 4px;
+}
+/* -----------Testimonials--------- */
+
+
 /*-----------------Footer-------------------*/
 .page-footer {
     padding: 40px 0;
