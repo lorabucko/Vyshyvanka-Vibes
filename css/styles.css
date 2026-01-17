@@ -185,7 +185,19 @@ section {
     top: 114px;
     left: 1115px;
 }
-
+/* -----------About Us Section--------- */
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 536px;
+    gap: 20px;
+}
+.about-us .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
 
 /* -----------Testimonials--------- */
 .testimonials {
